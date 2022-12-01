@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-v4:23.4.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c31756dcbe3829bb103e4e3417dbcd2b/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b6bbfaee4b777f328ea0ba185acea0f/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312fdb159615dc4f73d143fa69f81c47/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c31756dcbe3829bb103e4e3417dbcd2b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c31756dcbe3829bb103e4e3417dbcd2b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c31756dcbe3829bb103e4e3417dbcd2b/jars/libs/internal_impl-23.4.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b6bbfaee4b777f328ea0ba185acea0f/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b6bbfaee4b777f328ea0ba185acea0f/jars/libs/internal_impl-23.4.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b6bbfaee4b777f328ea0ba185acea0f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b6bbfaee4b777f328ea0ba185acea0f/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312fdb159615dc4f73d143fa69f81c47/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312fdb159615dc4f73d143fa69f81c47/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312fdb159615dc4f73d143fa69f81c47/jars/libs/internal_impl-23.4.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312fdb159615dc4f73d143fa69f81c47/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/23.4.0/5c2da94919541d12c2173b6ac2f0dee6c0a2c99f/support-v4-23.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

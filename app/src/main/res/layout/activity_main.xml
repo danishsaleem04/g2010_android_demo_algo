@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context="com.oxi.g2010.demo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="version" />
+
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="log" />
+
+        <EditText
+            android:id="@+id/et_sn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="SN3(max length 32)"
+            android:maxLength="32"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_log"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_showFp"
+            android:layout_width="256dp"
+            android:layout_height="360dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_log"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ly_image"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_findDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="find device" />
+
+            <Button
+                android:id="@+id/btn_openDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="open device" />
+
+            <Button
+                android:id="@+id/btn_closeDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="close device" />
+
+            <Button
+                android:id="@+id/btn_prepareCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wakeup device"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_readFmVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read firmware"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_readProductSN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read SN"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_beginCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="capture image" />
+
+            <Button
+                android:id="@+id/btn_endCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="end capture"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_capture_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_capture_template" />
+
+            <Button
+                android:id="@+id/btn_choose_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_choose_image" />
+
+            <Button
+                android:id="@+id/btn_generate_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_generate_template"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_get_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_get_template"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_select_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_border_color"
+                android:text="@string/label_select_template" />
+
+            <Button
+                android:id="@+id/btn_verify_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_border_color"
+                android:text="@string/label_verify_template" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

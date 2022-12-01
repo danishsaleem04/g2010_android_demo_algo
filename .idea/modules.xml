@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/g2010_android_demo_algo.iml" filepath="$PROJECT_DIR$/.idea/modules/g2010_android_demo_algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/g2010_android_demo_algo.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oxi_sdk/g2010_android_demo_algo.oxi_sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/oxi_sdk/g2010_android_demo_algo.oxi_sdk.iml" />
+    </modules>
+  </component>
+</project>

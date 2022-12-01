@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    defaultConfig {
+        applicationId "com.oxi.g2010.g2010_android_demo"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 206
+        versionName "2.0.6"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+
+    applicationVariants.all {variant ->
+//        variant.outputs.each {output ->
+//            def outputFile = output.outputFile
+//            def fileName
+//            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                if (variant.buildType.name.equals('release')) {
+//                    fileName = "OxiDemo"+"_"+"V2.0.6_20170310_beta"+".apk"
+//                } else if (variant.buildType.name.equals('debug')) {
+////                    fileName = "PB_${defaultConfig.versionName}_${getTime()}_.apk"
+//                    fileName = "OxiDemo"+"_"+"G2010"+".apk"
+//                }
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+
+        variant.outputs.all {
+            if (variant.buildType.name.equals('release')) {
+                outputFileName = "OxiDemo"+"_"+"V2.0.6_20170310_beta"+".apk"
+            } else if (variant.buildType.name.equals('debug')) {
+//                    fileName = "PB_${defaultConfig.versionName}_${getTime()}_.apk"
+                outputFileName = "OxiDemo"+"_"+"G2010"+".apk"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.android.support:design:23.4.0'
+
+    testImplementation 'junit:junit:4.12'
+    implementation files('libs/oxi_sdk-release.aar')
+//    implementation project(':oxi_sdk')
+}
+
+def getTime() {
+    return new Date().format("yyyyMMddHHmmss", TimeZone.getTimeZone("Asia/Shanghai"))
+}

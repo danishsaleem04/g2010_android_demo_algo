@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OXiDemo_G2010</string>
+    <string name="label_enroll">enroll</string>
+    <string name="label_auth">auth</string>
+    <string name="label_choose_image">image generate template</string>
+    <string name="label_generate_template">generate template</string>
+    <string name="label_get_template">get template</string>
+    <string name="label_capture_template">capture template</string>
+    <string name="label_select_template">choose a template</string>
+    <string name="label_send_template">send template</string>
+    <string name="label_compare_template">compare template</string>
+    <string name="label_verify_template">verify with template</string>
+    <string name="label_delete_finger_all">delete all fingers</string>
+    <string name="label_enroll_start">start enroll</string>
+    <string name="label_enroll_end">enroll success</string>
+    <string name="text_capture_image_state">capturing image...</string>
+    <string name="text_end_capture">end capture</string>
+    <string name="text_wakeup_state">wakeup state</string>
+    <string name="text_capture_template_start">capturing template...</string>
+    <string name="text_delete_template_start">start delete all template</string>
+    <string name="text_delete_template_success">delete template success</string>
+    <string name="text_pls_choose_template_file">pls choose a template file!</string>
+    <string name="text_pls_choose_image_file">pls choose an image file!</string>
+</resources>

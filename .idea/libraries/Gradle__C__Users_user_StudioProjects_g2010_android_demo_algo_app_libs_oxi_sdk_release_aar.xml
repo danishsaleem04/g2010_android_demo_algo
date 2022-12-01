@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/user/StudioProjects/g2010_android_demo_algo/app/libs/oxi_sdk-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3eed6fbf6f26eea15a90a0f29d98f74/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3eed6fbf6f26eea15a90a0f29d98f74/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3eed6fbf6f26eea15a90a0f29d98f74/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
